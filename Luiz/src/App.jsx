@@ -12,7 +12,6 @@ const App = () => {
     const results = await tmdbApi.searchMovies(query);
     setMovies(results);
   };
-
   return (
     <div className="App">
       <h1>Busca de Filmes</h1>
